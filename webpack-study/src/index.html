@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>webpack打包</title>
+	<link rel="stylesheet" href="">
+
+	<!-- 不推荐引入包和css文件 -->
+	<!-- <script src="main.js"></script>  有新语法，但是浏览器不识别  使用webpack打包工具，进行处理生成main文件-->
+	<!-- <script src="../dist/bundle.js"></script> -->
+	<!-- 直接引入根路径的bundle.js -->
+	<!-- 不适用link标签 会发起二次请求-->
+	<script src="/bundle.js"></script>
+</head>
+<body>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+
+	</ul>
+</body>
+</html>
